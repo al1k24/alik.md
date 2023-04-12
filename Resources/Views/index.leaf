@@ -1,12 +1,147 @@
 <!doctype html>
-<html lang="en">
+<html class="no-js" lang="en">
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>#(title)</title>
+    <meta name="robots" content="noindex, follow" />
+    <meta name="description" content="iOS Developer">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/images/favicon/safari-pinned-tab.svg" color="#f9004d">
+    <meta name="msapplication-TileColor" content="#f9004d">
+    <meta name="theme-color" content="#f9004d">
 
-  <title>#(title)</title>
+    <!-- CSS
+    ============================================ -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/vendor/lightbox.css">
+    <link rel="stylesheet" href="assets/css/plugins/plugins.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Fix  -->
+    <style>
+        .slide.designer-portfolio {
+            height: calc(100vh - 126px);
+//            height: 100vh;
+        }
+    </style>
 </head>
 
 <body>
-  <h1>#(title)</h1>
+    <div class="main-page">
+        <div id="my_switcher" class="my_switcher">
+            <ul>
+                <li>
+                    <a href="javascript: void(0);" data-theme="light" class="setColor light">
+                        <img src="assets/images/about/sun-01.svg" alt="Sun images"><span title="Light Mode"> Light</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript: void(0);" data-theme="dark" class="setColor dark">
+                        <img src="assets/images/about/vector.svg" alt="Vector Images"><span title="Dark Mode"> Dark</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Start Page Wrapper  -->
+        <main class="page-wrapper">
+            <!-- Start Slider Area  -->
+            <div class="slider-wrapper">
+                <div class="slide designer-portfolio slider-style-3  d-flex align-items-center justify-content-center bg_color--5 rn-slider-height">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5 col-md-12 text-center">
+                                <div class="designer-thumbnail">
+                                    <img src="assets/images/about/al1k24@512.JPG" alt="Me">
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-12 mt_md--40 mt_sm--40">
+                                <div class="inner text-lg-start text-center">
+                                    <!-- <span>Welcome to my World</span> -->
+                                    <h1 class="title">
+                                        Hi, I’m Alik<br>
+                                        <span>iOS Developer</span>
+                                    </h1>
+                                    <!-- <h2>based in USA.</h2> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Slider Area  -->
+        </main>
+        <!-- End Page Wrapper  -->
+
+        <!-- Start Footer Style Two  -->
+        <div class="footer-style-2 ptb--30 bg_image bg_image--1" data-black-overlay="6">
+            <div class="wrapper plr--50 plr_sm--20">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="inner">
+                            <div class="logo text-center text-sm-start mb_sm--20">
+<!--                                <a href="/">-->
+                                    <img width="66" height="66" src="assets/images/logo/swift.svg" alt="Alik Moldovanu | iOS Developer">
+<!--                                </a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="inner text-center">
+                            <ul class="social-share rn-lg-size d-flex justify-content-center liststyle">
+                                <li><a href="https://t.me/al1k24" target="_blank"><i class="fa fa-paper-plane"></i></a></li>
+                                <li><a href="https://github.com/al1k24" target="_blank"><i class="fab fa-github"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/alik-moldovanu/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                                <!-- <li><a href="#"><i class="fab fa-twitter"></i></a></li> -->
+                                <!-- <li><a href="#"><i class="fab fa-facebook-f"></i></a></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                        <div class="inner text-lg-end text-center mt_md--20 mt_sm--20">
+                            <div class="text">
+                                <p>Made with <span class="love"><i class="fa fa-heart" aria-hidden="true"></i></span> and <strong class="love">Swift</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Style Two  -->
+    </div>
+
+    <!-- JS
+    ============================================ -->
+    
+    <!-- Modernizer JS -->
+    <script src="assets/js/vendor/modernizr.min.js"></script>
+    
+    <!-- jQuery JS -->
+    <script src="assets/js/vendor/jquery.js"></script>
+    
+    <!-- Bootstrap JS -->
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/stellar.js"></script>
+    <script src="assets/js/vendor/particles.js"></script>
+    <script src="assets/js/vendor/masonry.js"></script>
+    <script src="assets/js/vendor/stickysidebar.js"></script>
+    <script src="assets/js/plugins/plugins.js"></script>
+    <script src="assets/js/vendor/js.cookie.js"></script>
+    <script src="assets/js/vendor/jquery.style.switcher.js"></script>
+    <script src="assets/js/vendor/jquery-one-page-nav.js"></script>
+    
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
